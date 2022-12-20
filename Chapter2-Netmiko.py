@@ -1,5 +1,7 @@
 from netmiko import ConnectHandler
 
+# if __name__ == '__main__':
+
 iosv_1 = {'device_type':'cisco_ios','host':'192.168.17.20','username':'root','password':'root'}
 net_connect = ConnectHandler(**iosv_1)
 net_connect.find_prompt()
