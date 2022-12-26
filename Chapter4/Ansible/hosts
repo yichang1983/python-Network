@@ -1,0 +1,14 @@
+[ubuntu]
+192.168.17.132
+
+[nexus]
+192.168.17.22
+192.168.17.25
+
+[nexus:vars]
+username=cisco
+password=cisco
+
+[ios-devices]
+iosv-1
+iosv-2
