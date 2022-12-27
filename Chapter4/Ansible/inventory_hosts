@@ -37,15 +37,15 @@ nxos-1 ansible_host=192.168.17.22
 nxos-2 ansible_host=192.168.17.25
 
 [eos-devices]
-arista1 ansible_host=192.168.199.158
+arista1 ansible_host=192.168.17.24
 
 [eos-devices:vars]
 username=arista
 password=arista
 
 [junos_devices]
-J1 ansible_host=192.168.24.254
+J1 ansible_host=192.168.17.23
 
 [junos_devices:vars]
-username=juniper
-password=juniper
+username=root
+password=root123
