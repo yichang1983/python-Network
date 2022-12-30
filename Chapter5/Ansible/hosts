@@ -1,3 +1,10 @@
 [ios-devices]
 iosv-1
 iosv-2
+
+[arista-devices]
+arista
+
+[nxosv-devices]
+nxos-1
+nxos-2
