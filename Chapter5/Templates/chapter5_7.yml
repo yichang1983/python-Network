@@ -1,0 +1,9 @@
+---
+- name: Template Basic
+  hosts: localhost
+
+  tasks:
+    - name: copy one file to another
+      template:
+        src=~/Desktop/python-Network/Chapter5/Templates/file1
+        dest=~/Desktop/python-Network/Chapter5/Templates/file2
